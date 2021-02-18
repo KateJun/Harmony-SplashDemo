@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "advertise",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "skip",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "copyright_text_color",
+      "value": "#99000000"
+    },
+    {
+      "name": "app_title_text_color",
+      "value": "#E6000000"
+    }
+  ]
+}

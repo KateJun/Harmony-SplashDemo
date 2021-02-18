@@ -1,0 +1,84 @@
+{
+  "float": [
+    {
+      "name": "advertise_bottom_margin",
+      "value": "10vp"
+    },
+    {
+      "name": "advertise_left_margin",
+      "value": "10vp"
+    },
+    {
+      "name": "advertise_width",
+      "value": "40vp"
+    },
+    {
+      "name": "advertise_height",
+      "value": "17vp"
+    },
+    {
+      "name": "advertise_text_size",
+      "value": "8fp"
+    },
+    {
+      "name": "skip_height",
+      "value": "29vp"
+    },
+    {
+      "name": "skip_width",
+      "value": "56vp"
+    },
+    {
+      "name": "skip_button_right_margin",
+      "value": "20vp"
+    },
+    {
+      "name": "skip_button_top_margin",
+      "value": "20vp"
+    },
+    {
+      "name": "skip_left_margin",
+      "value": "9vp"
+    },
+    {
+      "name": "skip_right_margin",
+      "value": "10vp"
+    },
+    {
+      "name": "skip_text_size",
+      "value": "12fp"
+    },
+    {
+      "name": "copyright_text_size",
+      "value": "8fp"
+    },
+    {
+      "name": "copyright_top_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "app_title_text_size",
+      "value": "21fp"
+    },
+    {
+      "name": "app_icon_height",
+      "value": "36vp"
+    },
+    {
+      "name": "app_icon_width",
+      "value": "36vp"
+    },
+    {
+      "name": "app_icon_right_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "bottom_bar_height",
+      "value": "92vp"
+    },
+    {
+      "name": "app_title_top_margin",
+      "value": "12vp"
+    }
+  ]
+}

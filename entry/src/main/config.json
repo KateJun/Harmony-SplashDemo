@@ -1,0 +1,64 @@
+{
+  "app": {
+    "bundleName": "com.harmony.mysplashdemo",
+    "vendor": "harmony",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.harmony.mysplashdemo",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoTitleBar",
+          "extra": ""
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "portrait",
+        "name": "com.harmony.mysplashdemo.SplashScreenAbility",
+        "icon": "$media:icon",
+        "description": "$string:splashscreenability_description",
+        "label": "SplashDemo",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "portrait",
+        "name": "com.harmony.mysplashdemo.MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

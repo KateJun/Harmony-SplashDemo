@@ -1,0 +1,36 @@
+{
+  "strarray": [
+    {
+      "name": "tab_title",
+      "value": [
+        {
+          "value": "推荐"
+        },
+        {
+          "value": "热点"
+        },
+        {
+          "value": "NBA"
+        },
+        {
+          "value": "美图"
+        },
+        {
+          "value": "疫情"
+        },
+        {
+          "value": "本地"
+        },
+        {
+          "value": "军事"
+        },
+        {
+          "value": "投资"
+        },
+        {
+          "value": "金融"
+        }
+      ]
+    }
+  ]
+}

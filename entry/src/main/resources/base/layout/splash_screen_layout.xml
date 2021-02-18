@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:ability_launch_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:bottom_bar"
+        ohos:height="$float:bottom_bar_height"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:alignment="horizontal_center"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:id="$+id:bottom_bar_title"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="center"
+            ohos:orientation="horizontal"
+            ohos:top_margin="$float:app_title_top_margin">
+
+            <Image
+                ohos:id="$+id:bottom_bar_title_icon"
+                ohos:height="$float:app_icon_height"
+                ohos:width="$float:app_icon_width"
+                ohos:background_element="$graphic:icon_app"
+                ohos:right_margin="$float:app_icon_right_margin"/>
+
+            <Text
+                ohos:id="$+id:bottom_bar_title_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:app_name"
+                ohos:text_color="$color:app_title_text_color"
+                ohos:text_size="$float:app_title_text_size"/>
+        </DirectionalLayout>
+
+        <Text
+            ohos:id="$+id:bottom_bar_copyright"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:copyright"
+            ohos:text_color="$color:copyright_text_color"
+            ohos:text_size="$float:copyright_text_size"
+            ohos:top_margin="$float:copyright_top_margin"/>
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:loading_pic"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:above="$+id:bottom_bar"
+        ohos:background_element="$media:loading"/>
+
+    <!-- Skip Button -->
+    <StackLayout
+        ohos:id="$+id:skip_button"
+        ohos:height="$float:skip_height"
+        ohos:width="$float:skip_width"
+        ohos:align_parent_right="true"
+        ohos:align_parent_top="true"
+        ohos:background_element="$graphic:button_skip"
+        ohos:right_margin="$float:skip_button_right_margin"
+        ohos:top_margin="$float:skip_button_top_margin">
+
+        <Text
+            ohos:id="$+id:skip_button_text"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:left_margin="$float:skip_left_margin"
+            ohos:right_margin="$float:skip_right_margin"
+            ohos:text_color="$color:skip"
+            ohos:text_size="$float:skip_text_size"/>
+    </StackLayout>
+
+    <!-- Advertise Mark-->
+    <StackLayout
+        ohos:id="$+id:advertise_mark"
+        ohos:height="$float:advertise_height"
+        ohos:width="$float:advertise_width"
+        ohos:above="$+id:bottom_bar"
+        ohos:background_element="$graphic:mark_advertise"
+        ohos:bottom_margin="$float:advertise_bottom_margin"
+        ohos:left_margin="$float:advertise_left_margin">
+
+        <Text
+            ohos:id="$+id:advertise_mark_text"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:text="$string:advertise"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:advertise"
+            ohos:text_size="$float:advertise_text_size"/>
+    </StackLayout>
+</DependentLayout>

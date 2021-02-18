@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="110vp"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="109.5vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:padding="10vp">
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:alignment="vertical_center|left"
+            ohos:orientation="vertical"
+            ohos:weight="2">
+
+            <Text
+                ohos:id="$+id:item_news_title"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:max_text_lines="2"
+                ohos:multiple_lines="true"
+                ohos:right_padding="20vp"
+                ohos:text_size="18fp"
+                />
+
+            <Text
+                ohos:id="$+id:item_news_desc"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:max_text_lines="3"
+                ohos:top_margin="10vp"
+                ohos:multiple_lines="true"
+                ohos:right_padding="20vp"
+                ohos:text_size="14fp"
+                />
+        </DirectionalLayout>
+
+        <Image
+            ohos:id="$+id:item_news_image"
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:image_src="$media:loading"
+            ohos:scale_mode="inside"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
+    <Component
+        ohos:height="0.5vp"
+        ohos:width="match_parent"
+        ohos:background_element="#000000"
+        />
+</DirectionalLayout>
